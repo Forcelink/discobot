@@ -202,7 +202,7 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
     if (oldUserChannel === undefined && newUserChannel !== undefined)
     {
         // Sami joined a voice channel
-        if (newMember.id === '134346505921363969'){
+        /*if (newMember.id === '134346505921363969'){
             var guildId = newMember.guild.id;
             const serverQueue = MusicFunctions.queue.get(guildId);
             var message = {
@@ -216,7 +216,7 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
             if (rand === 0) {
                 MusicFunctions.execute(message, serverQueue, 'samitheme.mp3', 1);
             }
-        }
+        }*/
         
     } 
     else if (newUserChannel === undefined)
