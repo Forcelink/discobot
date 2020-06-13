@@ -76,7 +76,7 @@ bot.on('message', async function(message)
 
                 message.channel.send(
 					"\nYoutube commands:\n"
-					+"-play\n-skin\n-clear\n"
+					+"-play\n-skip\n-clear\n"
 					+ "\nUseful commands:\n"
                     + "-remove <x>" + "        | removes x amount of past messages on the channel (without x parameter removes only one)" + "\n"
                     + "-rejoin" + "        | rejoins the bot to current voicechannel (can use if bot is lagging)" + "\n"
